@@ -1,0 +1,167 @@
+/* Animation for header */
+@keyframes entry {
+  0% {
+    opacity: 0.5;
+    transform: translateX(-300px);
+  }
+  25% {
+    opacity: 0.65;
+    transform: translateX(0px);
+  }
+  50% {
+    opacity: 0.75;
+    transform: translateX(300px);
+  }
+  75% {
+    opacity: 0.85;
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-300px);
+  }
+}
+/* Animation for Hero content */
+@keyframes sale {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+/* Rotating animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animation for changing colors of hero content */
+@keyframes changeColor {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: green;
+  }
+  60% {
+    background-color: yellow;
+  }
+  80% {
+    background-color: orange;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+/* Image Animation */
+@keyframes Image {
+  0% {
+    background-position: right center;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: right center;
+    background-size: 150%;
+  }
+}
+/* Animation for bouncing sale text */
+@keyframes sale-txt {
+  0% {
+    color: yellow;
+    transform: rotate(0deg);
+    top: 300px;
+    left: 0px;
+  }
+  12.5% {
+    color: red;
+    transform: rotate(90deg);
+    top: 600px;
+    left: 300px;
+  }
+  25% {
+    color: green;
+    transform: rotate(180deg);
+    top: 300px;
+    left: 600px;
+  }
+  37.5% {
+    color: green;
+    transform: rotate(270deg);
+    top: 600px;
+    left: 900px;
+  }
+  50% {
+    color: blue;
+    transform: rotate(360deg);
+    top: 300px;
+    left: 1200px;
+  }
+  62.5% {
+    color: violet;
+    transform: rotate(270deg);
+    top: 600px;
+    left: 900px;
+  }
+  75% {
+    color: white;
+    transform: rotate(180deg);
+    top: 300px;
+    left: 600px;
+  }
+  87.5% {
+    color: white;
+    transform: rotate(90deg);
+    top: 600px;
+    left: 300px;
+  }
+  100% {
+    color: yellow;
+    transform: rotate(360deg);
+    top: 300px;
+    left: 0px;
+  }
+}
+/* Animation for changing backgoriund of form */
+@keyframes changeBackground {
+  0% {
+    background: linear-gradient(to right, blue, green, yellow, red, blue);
+  }
+  25% {
+    background: linear-gradient(to right, green, yellow, red, red, blue);
+  }
+  50% {
+    background: linear-gradient(to right, yellow, red, red, blue, green);
+  }
+  75% {
+    background: linear-gradient(to right, red, red, blue, green, yellow);
+  }
+  100% {
+    background: linear-gradient(to right, red, blue, green, yellow, red);
+  }
+}
+/* Animation for pulsating button */
+@keyframes pulsate {
+  0% {
+    transform: scale(o.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
